@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Search Wiki</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Search Wiki</h1>
+
+    <form action="/" method="POST">
+        <input type="text" name="query" id="query">
+        <input type="submit" value="search"/>
+    </form>
+</div>
+{% endblock %}
