@@ -2,7 +2,6 @@ import pickle, nltk, os, jsonify
 from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
 
 def preprocessLC(text): # Lowercase, tokenize

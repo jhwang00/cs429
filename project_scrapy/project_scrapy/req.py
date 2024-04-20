@@ -5,8 +5,9 @@ import json
 url = 'http://localhost:5000/query'
 
 # Define the JSON data to be sent in the request
+user_query = input("Search: ")
 json_data = {
-    "query": "blood cells hemoglobin"
+    "query": user_query
 }
 
 # Send POST request with JSON data
