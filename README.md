@@ -24,7 +24,7 @@ The Scrapy-based crawler handles content retrieval and stores web documents in H
 Users can submit free text queries to the Flask-based processor, which returns top-K ranked results based on cosine similarity scores.
 
 ## Conclusion:
-The project's success hinges on the effective implementation of web crawling, indexing, and query processing functionalities. Outputs include retrieved documents, indexed data, and query results. Caveats include potential challenges in scaling the system and optimizing performance.
+According to test cases, the project is quite successful. Web crawling part did not retrieve exact amount of pages but got close to it. Indexing part successfully saved inverted index with tf-idf score and url in pickle format. Query processing returned resonable sites. However, it is expected that more accurate measurements will be needed.
 
 ## Data Sources:
 https://www.wikipedia.org/ \
