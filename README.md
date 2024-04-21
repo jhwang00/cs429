@@ -39,8 +39,8 @@ Not precise but close to max page
 
 #### Indexing
 2. test.py test1() \
-3, 8, 52, 98 \
-3, 8, 52, 98 \
+number of url:       3, 8, 52, 98 \
+returned url number: 3, 8, 52, 98 \
 start url correctly downloaded 
 
 3. test.py test2() \
