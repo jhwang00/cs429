@@ -79,8 +79,33 @@ Response from server: \
 ] \
 Expected Switzerland to show first but in second place.
 
+## Source code
+#### Listings
+1. Crawler: \
+spiders/mycrawler.py 
+2. Indexer: \
+main.py 
+3. Processor: \
+app.py \
+req.py 
+4. Test: \
+test.py 
+
+#### Documentation
+Scrape file by typing "scrapy crawl my crawler" in terminal. \
+Run main.py to save inverted index and url. \
+Run flasks by app.py and run req.py for query input. 
+
+#### Dependencies
+beautifulSoup 4.12.3 \
+flask 3.0.2 \
+nltk 3.8.1 \
+python 3.11.9 \
+scipy 1.12.0 \
+scrapy 2.11.1
+
 ## Bibliography:
+Johansson, Christer. "How do I read all html-files in a directory recursively?," Stack Overflow, January 23, 2018, https://stackoverflow.com/questions/48401550/how-do-i-read-all-html-files-in-a-directory-recursively \
 Manning, Christopher D., Raghavan, P., and Schütze, Hinrich.
 "Introduction to Information Retrieval". online. Cambridge: Cambridge University Press, 2008.https://nlp.stanford.edu/IR-book/. \
-NeuralNine, "Coding Web Crawler in Python with Scrapy," YouTube Video, November 23, 2022, https://www.youtube.com/watch?v=m_3gjHGxIJc&ab_channel=NeuralNine. \
-Johansson, Christer. "How do I read all html-files in a directory recursively?," Stack Overflow, January 23, 2018, https://stackoverflow.com/questions/48401550/how-do-i-read-all-html-files-in-a-directory-recursively
+NeuralNine, "Coding Web Crawler in Python with Scrapy," YouTube Video, November 23, 2022, https://www.youtube.com/watch?v=m_3gjHGxIJc&ab_channel=NeuralNine.
