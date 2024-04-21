@@ -1,4 +1,4 @@
-import pickle, nltk, os, jsonify
+import pickle, nltk, os
 from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -99,7 +99,7 @@ def main():
     data = [] # [[{url, text}]] 
 
     # Read all html file in directory
-    directory ='/Users/user/Desktop/cs 429/hw/project/project_scrapy/'
+    directory = os.getcwd()
     for filename in os.listdir(directory):
         if filename.endswith('.html'):
             fname = os.path.join(directory,filename)
@@ -125,4 +125,5 @@ def main():
     write_pickle(data_url,file_name3)
 #https://stackoverflow.com/questions/48401550/how-do-i-read-all-html-files-in-a-directory-recursively
 
-#main()
+if __name__ == "__main__":
+    main()
